@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "ikeoll-20181217015901-authRole",
+            "UnauthRoleArn": "arn:aws:iam::431657491992:role/ikeoll-20181217015901-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::431657491992:role/ikeoll-20181217015901-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ikeoll-20181217015901-deployment",
+            "UnauthRoleName": "ikeoll-20181217015901-unauthRole",
+            "StackName": "ikeoll-20181217015901",
+            "StackId": "arn:aws:cloudformation:us-east-1:431657491992:stack/ikeoll-20181217015901/3d2526d0-01c9-11e9-adc4-0eb85d5eff94"
+        }
+    }
+}

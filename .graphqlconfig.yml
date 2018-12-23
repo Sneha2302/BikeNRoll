@@ -1,0 +1,16 @@
+projects:
+  bikenroll:
+    schemaPath: app/src/main/graphql/schema.json
+    includes:
+      - app/src/main/graphql/**/*.graphql
+    excludes:
+      - amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app/src/main/graphql/com/amazonaws/amplify/generated/graphql
+        graphQLApiId: w4lpbplgpbegpd6ydrzh2k6ipu
+      endpoints:
+        prod: >-
+          https://7hlwc4khsbfmzd33x4pmite2dm.appsync-api.us-east-1.amazonaws.com/graphql
